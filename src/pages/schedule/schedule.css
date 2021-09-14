@@ -1,0 +1,38 @@
+html{
+    background: #121212;
+}
+
+.schedule-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+.schedule-wrapper > h1{
+    font-size: 2em;
+    color:rgba(255, 255, 255, 0.95);
+    font-weight: 800;
+}
+
+.schedule-wrapper > img{
+    margin-top: 1em;
+    width: 80%;
+    height: auto;
+    max-width: 750px;
+}
+
+.schedule-footer{
+    margin-top: 2em;
+}
+
+@media (max-width: 768px){
+    .schedule-wrapper > img{
+        width: 90%;
+        height: auto;
+    }
+}
+

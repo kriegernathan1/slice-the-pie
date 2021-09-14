@@ -1,0 +1,542 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+/* Landing page section */
+
+.tam_main_img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* top: -50px; */
+    z-index: 0;
+}
+
+header{
+    position: relative;
+    background: rgba(18, 18, 18, 0.85) !important;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    object-fit: cover;
+    opacity: 0.3;
+    
+}
+
+.intro_page{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 15px;
+}
+
+
+
+header > h1{
+    position: absolute;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    top: 10%;
+    text-align: center;
+    padding: 0 0.2em;
+    white-space: pre-wrap;
+}
+
+.intro_page > a {
+    font-size: 1.2em;
+    font-weight: 800;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.intro_page > a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7) !important;
+    cursor: pointer;
+
+}
+
+.cta_button{
+    border: 3px solid rgba(255, 255, 255, 0.87) !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: transparent;
+    display: inline-block;
+    padding: 0.8em 2.5em;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 31px;
+    min-height: 50px;
+    min-width: 100px;
+    /* width: 350px; */
+    height: auto;
+    white-space: nowrap;
+}
+
+.cta_button:hover{
+    cursor: pointer;
+    border: 4px solid rgba(255, 255, 255, 0.87) !important;
+}
+
+.cta_classes{
+    /* margin-top: 1.5em; */
+}
+
+.cta_about{
+    margin-top: 5em;
+}
+
+/* End landing page css  */
+
+/* About us section */
+.about-us{
+    display: flex;
+    background: rgba(255, 255, 255, 0.08) !important;
+    
+
+}
+
+#About_Us.anchor{
+    top: -300px;
+}
+
+
+
+.about-us > img{
+    /* width: 35vw; */
+    max-width: 400px;
+    object-fit: cover;
+    
+}
+
+
+
+
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin-left: 10%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+}
+
+.about-us-content > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2.2em;
+    line-height: 56px;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 1em;
+
+
+}
+
+.h1-phone{
+    display: none;
+}
+
+.about-us-content > p{
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.about-us-content > button {
+    margin-top: 4vw;
+}
+
+
+/* End about us */
+
+.classes_offered_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121212;
+    padding-top: 1em;
+    padding-bottom: 4em;
+}
+
+.classes_offered_container > h1{
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 56px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* Classes Offered css */
+.classes_offered{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1400px;
+
+        
+}
+
+.cta_classes {
+    margin-top: 1em;
+}
+
+
+.class-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 23.2653px;
+    padding: 7px 23px 27px;
+    width: 25vw;
+    text-align: center;
+    max-width: 350px;
+}
+
+.class-card > h2{
+    font-weight: 800;
+    font-size: 1.4em;
+    line-height: 25px;
+    color:rgba(255, 255, 255, 0.87);
+    margin: 0px;
+}
+
+.class-card > p {
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 1em;
+}
+
+
+/* End Classes Offered css */
+
+/* Contact us form */
+.contact-us{
+    background: rgba(255,255,255,0.08);
+    position: relative;
+    padding-bottom: 2em;
+}
+
+
+
+.contact-us > h1{
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 56px;
+    color:rgba(255, 255, 255, 0.87);
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.contact-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* gap: 15px; */
+    /* margin: -25px 0 0 -25px; */
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-us-container > *{
+    margin: 25px 0 0 25px;
+}
+
+
+.contact-us-container > div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact-us-container > div > label{
+    position: absolute;
+    left: 0.5vw;
+    font-size: 1em;
+    font-weight: 800;
+    color:rgba(255, 255, 255, 0.75);
+    padding-top: 0.2em;
+}
+
+.contact-us-container > div > label > span{
+    color: red;
+    margin-left: 5px;
+}
+
+.contact-us-container > div > input{
+    width: 35vw;
+    font-size: 1em;
+}
+
+*:focus{
+    outline: none;
+}
+
+.contact-us-container select{
+    color:rgba(255, 255, 255, 0.85);
+    font-size: 1.2em;
+    padding-top: 0.4em;
+    font-weight: 700;
+    width: 35vw;
+}
+
+.contact-us-form{
+    height: 65px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    /* box-shadow: inset 0px -10px 1px -7px #FFFFFF; */
+}
+
+.contact-us-form:focus{
+    box-shadow: inset 0px -10px 1px -7px #FFFFFF;
+}
+
+.form-error{
+    box-shadow: inset 0px -10px 1px -7px #ff0000;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  /* border: 1px solid green; */
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.85) !important;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.1) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.message-form{
+    height: 150px !important;
+}
+
+.message-form-container > textarea{
+    width: 40vw;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 700;
+    padding-top: 1em;
+    text-indent: 15px;
+}
+
+.message-form-container > textarea::placeholder{
+    padding-top: 0.2em;
+}
+
+
+.contact-us-container > div > input{
+    position: relative;
+    color: white;
+    /* font-size: 1em; */
+    font-weight: 700;
+    text-indent: 15px;
+    padding-top: 15px;
+}
+
+
+
+    
+
+
+
+.contact-us-container > div > input::placeholder{
+    font-size: 1em;
+    line-height: 37px;
+    color: rgba(255, 255, 255, 0.25);
+    font-weight: 700;
+    overflow: visible;
+}
+
+
+
+.btn-holder  button{
+    border: 2px solid #28FC05;
+    color: rgba(255, 255, 255, 0.87);
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 20px 45px;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+
+
+}
+
+.btn-holder button:hover{
+    border: 3px solid #28FC05;
+}
+
+.btn-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    caret-color: white;
+
+}
+
+
+
+
+
+
+/* End contact us */
+
+.divider{
+    margin-top: 50px;
+    height: 5px;
+    background: rgba(229, 229, 229, 0.31);
+}
+
+
+/* Footer styling */
+
+
+
+/* End footer */
+
+
+/* Mobile design  */
+
+@media (max-width: 950px)
+{
+    /* Classes offered mobile */
+    .classes_offered{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .classes_offered > *{
+        margin-bottom: 15px;
+    }
+    
+    br{
+        display: none;
+    }
+
+    .class-card{
+        padding-top: 1.2em;
+        width: 50vw;
+        max-width: none;
+        font-size: 1.3em;
+    }
+
+    /* End classes offered mobile */
+
+    /* About us Mobile */
+    .about-us-content{
+        margin-left: 0;
+        width: 90vw;
+    }
+
+    .about-us{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1.5em;
+    }
+
+    .h1-phone{
+        display: block;
+    }
+
+    .about-us > h1{
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    .about-us-content > h1{
+        display: none;
+    }
+    
+    .about-us-content > p{
+        text-align: center;
+    }
+
+    .about-us > img{
+        object-fit: cover;
+        width: 100%;
+        max-width: none;
+        
+    }
+
+    .cta_about{
+        margin-top: 2em;
+    }
+
+    .contact-us-container select{
+        width: 80vw;
+    }
+
+
+
+    /* End About us Mobile */
+
+    /* Contact Us mobile */
+    .contact-us-container{
+        flex-direction: column;
+    }
+
+    .contact-us-container > div > input {
+        width: 80vw;
+        /* font-size: 1em; */
+    }
+
+    .contact-us-container > div > textarea {
+        width: 80vw;
+        /* font-size: 1em; */
+    }
+
+
+    /* End contact us mobile */
+}
+
+@media(max-width: 650px){
+    .class-card{
+        padding-top: 1.2em;
+        width: 90vw;
+        
+    }
+}
+
+
+/* @media (max-width: 750px){
+    .about-us > img{
+        object-position: center right;
+    }
+
+    .cta_button{
+        /* font-size: 0.8em; */
+        /* width: 60vw;
+    } */
+/* } */ 
+
+/* End mobile design */

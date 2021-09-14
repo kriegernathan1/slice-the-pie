@@ -1,0 +1,40 @@
+html{
+    background-color: #121212;
+    font-family: Gilroy;
+}
+
+nav *{
+    white-space: nowrap;
+}
+
+.navbar-light{
+    border-color: none;
+}
+
+
+
+.try-free-class{
+    font-weight: 800 !important;
+    text-decoration: underline !important;
+    color: rgba(0, 0, 0, 0.99) !important;
+}
+
+nav a:hover{
+    text-decoration: underline !important;
+}
+
+nav a{
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-weight: 400;
+}
+
+nav{
+    background: rgba(255,255,255, 0.95) !important;
+}
+
+nav .container{
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 2em;
+    max-width: none !important;
+}

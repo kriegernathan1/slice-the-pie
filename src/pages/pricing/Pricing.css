@@ -1,0 +1,129 @@
+html{
+    background-color: #121212;
+}
+
+.pricing-container h1{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 800;
+    color: rgba(255,255,255, 0.95);
+    padding-top: 0.5em;
+}
+
+.pricing-container{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.card-holder{
+    display: flex;
+    justify-content: center;
+    margin: -2em 0 0 -2em;
+    padding-top: 1em;
+}
+
+.card-holder > *{
+    margin: 2em 0 0 2em;
+}
+
+.price{
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.price > span{
+    font-size: 0.8em;
+}
+
+.pricing-card > p{
+    color:rgba(255,255,255, 0.87);
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.pricing-card > h3{
+    color: rgba(255,255,255, 0.95);
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.pricing-card{
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 33px;
+    min-width: 200px;
+    width: 35vw;
+    padding-top: 0;
+    padding-bottom: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    max-width: 400px;
+}
+
+li{
+    color:rgba(255, 255, 255, 0.87);
+    font-weight: 800;
+    font-size: 1.5em;
+    padding: 0.2em;
+}
+
+.cta-button {
+    border: 3px solid rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.87);
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: transparent;
+    display: inline-block;
+    padding: 20px 45px;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    margin-top: 2em;
+
+}
+
+.cta-button:hover{
+    cursor: pointer;
+    border: 4px solid rgba(255, 255, 255, 0.87);
+}
+
+.pricing-disclosure-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.button-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-footer{
+    margin-top: 4em;
+    background:rgba(255, 255, 255, 0.08);
+    padding-top: 1.5em;
+}
+
+#pricing-cta{
+    background-color: transparent;
+    white-space: nowrap;
+}
+
+@media (max-width: 900px){
+    .card-holder{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-holder > *{
+        margin-bottom: 1em;
+    }
+
+    .pricing-card{
+        width: 80vw;
+    }
+}

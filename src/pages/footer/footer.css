@@ -1,0 +1,131 @@
+/* Footer styling */
+
+footer{
+    padding-bottom: 5vw;
+    padding-top: 1em;
+}
+
+.more-info-footer{
+    color: rgba(255, 255, 255, 0.87);
+    margin-left: 2em;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.footer-info{
+    display: flex;
+    margin: 0px 2em;
+    justify-content: space-around;
+    
+}
+
+.footer-info > div > h3{
+    font-size: 1.3em;
+    font-weight: 800;
+    color: rgba(255,255,255,0.95)
+}
+
+.footer-info > div > p{
+    color:rgba(255, 255, 255, 0.87);
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+
+.contact-us-today{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.95);
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 5vw;
+}
+
+.seperator{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    height: 0.4em;
+    width: 80%;
+}
+
+.seperator-container{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.social-media-holder > a:hover{
+    cursor: pointer;
+}
+
+.social-media-holder > a > svg{
+    width: 60px;
+    height: auto;
+}
+
+
+svg{
+    pointer-events: none;
+}
+
+svg > *{
+    pointer-events: none;
+}
+
+
+.footer-info  a{
+    color: rgba(255,255,255,0.95);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.footer-info > div > h3{
+    color: rgba(255, 255, 255, 0.60)    
+}
+
+/* End footer */
+
+/* Mobile design  */
+@media (max-width: 950px)
+{
+    .footer-info{
+        margin-top: 1.5em;
+    }
+
+
+    footer > h1{
+        font-size: 2em;
+    }
+
+    .footer-info{
+        flex-direction: column;
+    }
+
+    footer{
+        margin-top: 0.5em;
+    }
+
+    .social-media-holder > a > svg{
+        width: 50px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 400px){
+    .contact-us-today{
+        font-size: 1.8em;
+    }
+}
+
+
+/* End Mobile design  */
+
