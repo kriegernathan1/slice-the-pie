@@ -1,7 +1,7 @@
 import './schedule.css';
 import React from "react";
 import Footer from "../footer/footer";
-import schedule_photo from './Schedule.jpeg'
+import schedule_photo from './Schedule_091821.jpeg'
 
 function Schedule(props){
 
@@ -10,7 +10,7 @@ function Schedule(props){
         <div>
             <div className='schedule-wrapper'>
                 <h1>Class Schedule</h1>
-                <img src={schedule_photo}/>
+                <img alt="class schedule" src={schedule_photo}/>
             </div>
             
             <Footer mainClass='schedule-footer'/>
