@@ -475,15 +475,24 @@ textarea:focus, input:focus{
 
     .about-us-content > h1{
         display: none;
+        
+    }
+
+    .about-us-content{
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 40px;
     }
     
     .about-us-content > p{
-        text-align: center;
+        text-align: justify;
+        width: 90vw;
+        /* margin-left: 15px; */
     }
 
     .about-us > img{
         object-fit: cover;
-        width: 100%;
+        width: 90vw;
         max-width: none;
         
     }
@@ -519,13 +528,14 @@ textarea:focus, input:focus{
     /* End contact us mobile */
 }
 
-@media(max-width: 650px){
+@media(max-width: 600px){
     .class-card{
         padding-top: 1.2em;
         width: 90vw;
         
     }
 }
+
 
 
 /* @media (max-width: 750px){

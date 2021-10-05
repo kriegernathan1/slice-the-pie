@@ -16,7 +16,7 @@ function Pricing(props){
 
                     <ul>
                         <li>
-                            Three Brazillian Jiu-Jitsu Classes per week
+                            Unlimited BJJ Classes per week
                         </li>
                         <li>
                             Free Team Alpha T-Shirt with sign up

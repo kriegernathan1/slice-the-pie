@@ -1,7 +1,7 @@
 import './schedule.css';
 import React from "react";
 import Footer from "../footer/footer";
-import schedule_photo from './Schedule_091821.jpeg'
+import schedule_photo from './Schedule_100421.jpeg'
 
 function Schedule(props){
 

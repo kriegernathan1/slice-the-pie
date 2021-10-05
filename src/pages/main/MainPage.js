@@ -1,7 +1,8 @@
 import './MainPage.css';
 import React, { useState, useEffect } from 'react';
 import tam_main_img from "./group_photo_nogi.jpeg"
-import about_us_img from "./tam_about_us_img.png"
+// import about_us_img from "./tam_about_us_img.png"
+import about_us_img from "./about_us_img.jpeg"
 import Footer from "../footer/footer";
 import {init} from 'emailjs-com'
 import isEmail from 'validator/lib/isEmail';
@@ -85,6 +86,7 @@ function MainPage(props){
             
             setShowError(true)
 
+            setDisabled(false);
             return;
         }
 
@@ -94,12 +96,14 @@ function MainPage(props){
             setEmailError(errorStyle)
             setShowError(true);
             //show red border for name
+            setDisabled(false);
             return;
         }
         else if(!correct_email){
             setErrorMessage('The email you entered is incorrect.')
             setEmailError(errorStyle)
             setShowError(true);
+            setDisabled(false);
             return
 
         }
@@ -151,8 +155,8 @@ function MainPage(props){
             .then(response => {
                 if(response.ok)
                 {
-                    setSuccessMessage("Thank you! An email has been sent to the address you provided with further information. Please fill out the additional fields on the next page. \
-                                    You will be automatically redirected in a few seconds.");
+                    setSuccessMessage("Thank you! An email has been sent to the address you provided with further information (check spam folder if you can't find it). Please fill out the additional fields on the next page. \
+                                    You will be automatically redirected");
 
                     setTimeout(() => {  window.open('https://tabjj.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 8000);
                     // setTimeout(() => {  window.open('', '_blank').focus();; }, 5000);
@@ -161,7 +165,7 @@ function MainPage(props){
                 else{
                     setFailedMessage('An error occurred. Please fill out the form on the next page and we will be in contact soon. You will be redirected in a few seconds.');
                     setSuccessMessage('');
-                    setTimeout(() => {  window.open('https://tabjj.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 8000);
+                    setTimeout(() => {  window.open('https://tabjj.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 4000);
                     
                 }
                 

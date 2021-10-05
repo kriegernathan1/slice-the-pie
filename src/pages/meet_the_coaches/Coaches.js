@@ -103,9 +103,8 @@ function Coaches(props){
                         <img alt="coach alex profile picture" loading="lazy" src={alex}/>
                         <h3>Alex</h3>
                         <p>
-                            Coach Alex is our kids program head instructor and has been training BJJ for 10 
-                            years with Fabio Prado. He’s is entering his freshman year of college 
-                            majoring in Marine Biology.
+                            Coach Alex is a purple belt and our kids program head instructor. He's been training BJJ for 10 
+                            years with Fabio Prado. In the Fall, Alex will be entering his freshman year of college with the plan of majoring in Marine Biology.
                         </p>
                     </div>
 
@@ -115,7 +114,7 @@ function Coaches(props){
                         <p>
                             Coach Hector is our head striking coach with nearly 30 years experience in Muay 
                             Thai of which he fought for well over a decade at the highest level. He is 
-                            also a blue belt under Fabio Prado and loves “wingstop”.
+                            also a purple under Fabio Prado and loves “wingstop”.
                         </p>
                     </div>
 
@@ -138,7 +137,7 @@ function Coaches(props){
                         <h3>Aaron</h3>
                         <p>
                             Coach Aaron has been training off and on for 4 years and handles all the behind the 
-                            scenes aspects of the academy. When he’s not at the academy on the mats, 
+                            scenes aspects of the academy. When he’s not at the gym on the mats, 
                             he’s running his bike shop a few blocks away.
                         </p>
                     </div>
