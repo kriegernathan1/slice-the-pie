@@ -158,14 +158,14 @@ function MainPage(props){
                     setSuccessMessage("Thank you! An email has been sent to the address you provided with further information (check spam folder if you can't find it). Please fill out the additional fields on the next page. \
                                     You will be automatically redirected");
 
-                    setTimeout(() => {  window.open('https://tabjj.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 8000);
+                    setTimeout(() => {  window.open('https://tabjjucd.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 8000);
                     // setTimeout(() => {  window.open('', '_blank').focus();; }, 5000);
                     setFailedMessage('');
                 }
                 else{
                     setFailedMessage('An error occurred. Please fill out the form on the next page and we will be in contact soon. You will be redirected in a few seconds.');
                     setSuccessMessage('');
-                    setTimeout(() => {  window.open('https://tabjj.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 4000);
+                    setTimeout(() => {  window.open('https://tabjjucd.pushpress.com/open/interested', '_blank', 'noreferrer, noopener') }, 4000);
                     
                 }
                 
@@ -186,7 +186,7 @@ function MainPage(props){
                 <img className='tam_main_img' src={tam_main_img} alt='group_photo' />
                 <h1> World Class Brazilian Jiu-Jitsu, Grappling, Wrestling, <br/> and Conditioning in Davis, CA </h1>
                 <section className='intro_page'>
-                    <a target='_blank' rel="noreferrer"href='https://tabjj.pushpress.com/open/interested'>
+                    <a target='_blank' rel="noreferrer"href='https://tabjjucd.pushpress.com/open/interested'>
                         <button className='cta_button'>Try A Free Class</button>
                     </a>
 
@@ -215,7 +215,7 @@ function MainPage(props){
 
                     </p>
 
-                    <a target='_blank' rel="noreferrer"href='https://tabjj.pushpress.com/open/interested'>
+                    <a target='_blank' rel="noreferrer"href='https://tabjjucd.pushpress.com/open/interested'>
                         <button className='cta_button cta_about' >Try A Free Class</button>
                     </a>
                 </div>
@@ -259,7 +259,7 @@ function MainPage(props){
                     </div>
                 </div>
 
-                <a target='_blank' rel="noreferrer"href='https://tabjj.pushpress.com/open/interested'>
+                <a target='_blank' rel="noreferrer"href='https://tabjjucd.pushpress.com/open/interested'>
                         <button  className='cta_button cta_classes'>Try A Free Class</button>
                 </a>
 

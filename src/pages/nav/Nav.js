@@ -21,7 +21,7 @@ function TamNav(props) {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="https://tabjj.pushpress.com/open/interested" target="_blank" rel="noreferrer" className='try-free-class'>Try a Free Class</Nav.Link>
+        <Nav.Link href="https://tabjjucd.pushpress.com/open/interested" target="_blank" rel="noreferrer" className='try-free-class'>Try a Free Class</Nav.Link>
         <Nav.Link href="/#About_Us">About Us</Nav.Link>
         <Nav.Link href="/#Classes">Classes Offered</Nav.Link>
         <Nav.Link href="/Pricing">Pricing</Nav.Link>

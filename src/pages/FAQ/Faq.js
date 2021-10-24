@@ -45,7 +45,7 @@ function Faq(props){
 
                 <Question question={q4} answer={a4}/>
 
-                <a href='https://tabjj.pushpress.com/open/interested' rel="noreferrer" target="_blank">
+                <a href='https://tabjjucd.pushpress.com/open/interested' rel="noreferrer" target="_blank">
                     <button id='faq-cta' className='cta_button'>Try A Free Class</button>
                 </a>
 
