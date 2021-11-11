@@ -19,6 +19,7 @@ import Faq from './pages/FAQ/Faq.js'
 import Pricing from './pages/pricing/Pricing.js'
 import CtaForm from './pages/try_a_free_class/CtaForm.js'
 import Schedule from './pages/schedule/schedule.js';
+import UCDavisClub from './pages/UC_Davis_Club/club.js';
 
 
 /**
@@ -55,6 +56,10 @@ function App() {
 
           <Route path='/Schedule'>
             <Schedule/>
+          </Route>
+
+          <Route path='/club'>
+            <UCDavisClub/>
           </Route>
 
           <Route path="/">

@@ -69,6 +69,12 @@ function Pricing(props){
 
             </div>
 
+            <center>
+                <a className='club-link' target='_blank' rel="noreferrer" href='/club'>
+                            Are you a UC Davis student? Check out the Club
+                </a>
+            </center>
+
             <div id='pricing-cta' className='button-holder'> 
                 <a href='https://tabjj.pushpress.com/open/interested' target="_blank" rel="noreferrer">
                     <button  className='cta-button'>Try a Free Class</button>

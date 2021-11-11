@@ -22,6 +22,20 @@ html{
     padding-top: 1em;
 }
 
+.club-link{
+    display: block;
+    color:rgba(255, 255, 255, 0.85);
+    margin-top: 25px;
+    margin-bottom: -25px;
+    position: relative;
+    z-index: 40;
+}
+
+.club-link:hover{
+    font-weight: bolder;
+    color:rgba(255, 255, 255, 0.85);
+}
+
 .card-holder > *{
     margin: 2em 0 0 2em;
 }

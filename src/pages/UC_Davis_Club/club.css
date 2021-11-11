@@ -1,0 +1,64 @@
+.club_title{
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    width: 100vw;
+    z-index: 100;
+}
+
+.davis_club_container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.club_intro_photo{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+}
+
+.club-info-card{
+    width: 60vw;
+    max-width: 550px;
+    height: 50vh;
+    max-height: 400px;
+    background-color: #121212;
+    position: absolute;
+    z-index: 90;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    opacity: 0.8;
+    z-index: 1;
+    padding: 1em;
+    
+}
+
+.club-info-card > h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.club-info-card li {
+    color: white;
+    font-weight: normal;
+}
+
+.club-info-card > ul{
+    margin-top: 30px;
+}
+
+@media(max-width: 750px){
+    .club-info-card{
+        width: 95vw;
+        max-height: none;
+        height: auto;
+        
+    }
+}

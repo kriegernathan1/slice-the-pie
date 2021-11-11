@@ -11,6 +11,10 @@ nav *{
     border-color: none;
 }
 
+.navbar{
+    padding: 0em 0.5em;
+}
+
 
 
 .try-free-class{

@@ -259,9 +259,11 @@ function MainPage(props){
                     </div>
                 </div>
 
+                
                 <a target='_blank' rel="noreferrer"href='https://tabjjucd.pushpress.com/open/interested'>
                         <button  className='cta_button cta_classes'>Try A Free Class</button>
                 </a>
+               
 
                 
             </section>
